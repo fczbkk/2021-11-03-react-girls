@@ -7,6 +7,7 @@
     href="https://fonts.googleapis.com/css2?family=Tomorrow:wght@700;800&display=swap"
     rel="stylesheet"
   />
+  <script src="index.js"></script>
 </head>
 <body>
 <div class="alert"><p class="message">Guess!</p></div>
@@ -30,7 +31,7 @@
   <div class="mainSection">
     <h2>Secret Number</h2>
     <div class="secretNumber">
-      <p class="symbol number rightAligned lowGuess">0</p>
+      <p class="symbol number rightAligned lowGuess">1</p>
       <p class="symbol arrow">&lt;</p>
       <div class="star">
         <img src="./star.svg" />
@@ -44,7 +45,7 @@
 
 <div class="guessPanel">
   <form class="guessForm">
-    <h2>Number between 0 and 100:</h2>
+    <h2>Number between 1 and 100:</h2>
     <input name="guess" type="number" min="0" max="100" placeholder="55" class="userInput" />
     <button type="button" class="submitButton">guess</button>
   </form>
